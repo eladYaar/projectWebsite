@@ -14,6 +14,9 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
 .container-fluid {
     background: linear-gradient(to right, #222831, #00ADB5);
     height: 5vh;
@@ -81,12 +84,16 @@ h3 {
 .card {
     transition: all 200ms ease;
     width: 15vw;
-    aspect-ratio: 9/13;
-    background-color: #EEEEEE;
+    aspect-ratio: 15/20;
+    background: linear-gradient(#EEEEEE, #00ADB5);
+    border: none;
 }
 .card:hover {
     transform: scale(1.05);
     z-index: 999; 
+}
+.card-img-top {
+    height: 23vh;
 }
 
 .cardBtn {
