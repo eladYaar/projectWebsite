@@ -1,0 +1,104 @@
+html {
+    height: 100%;
+
+}
+
+body {
+    background: linear-gradient(to left, #222831, #393E46);
+    margin: 0;
+    background-size: 400vh;
+    color: #EEEEEE;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.container-fluid {
+    background: linear-gradient(to right, #222831, #00ADB5);
+    height: 5vh;
+}
+
+#home {
+    background-image: url('assets/images/backgroundGlasses.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    /* color: white; */
+    font-weight: 600;
+    color: #EEEEEE;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-weight: 600;
+}
+
+#about p {
+    color: #EEEEEE;
+    font-size: large;
+}
+
+.text-container {
+    max-width: 40vw;
+}
+
+.pageDiv {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    /* color: ; */
+}
+
+#socials {
+    position: fixed;
+    top: 30vh;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* background: linear-gradient(to top,#393E46,#00ADB5); */
+    background-color: #00ADB5;
+    margin: 0;
+    padding: 1vh;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 12vh;
+}
+
+#socials img {
+    height: 3vh;
+}
+.card {
+    transition: all 200ms ease;
+    width: 15vw;
+    aspect-ratio: 9/13;
+    background-color: #EEEEEE;
+}
+.card:hover {
+    transform: scale(1.05);
+    z-index: 999; 
+}
+
+.cardBtn {
+    background-color: #00ADB5;
+    color: #EEEEEE;
+}
+.cardBtn:hover {
+    background-color:#393E46;
+    color: #EEEEEE;
+}
+
+.card img {
+    width: inherit;
+    border: inherit;
+}
