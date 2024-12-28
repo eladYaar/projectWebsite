@@ -87,6 +87,7 @@ h3 {
     aspect-ratio: 15/20;
     background: linear-gradient(#EEEEEE, #00ADB5);
     border: none;
+    margin-top: 15px;
 }
 .card:hover {
     transform: scale(1.05);
