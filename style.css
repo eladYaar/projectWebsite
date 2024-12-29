@@ -85,9 +85,12 @@ h3 {
     transition: all 200ms ease;
     width: 15vw;
     aspect-ratio: 15/20;
-    background: linear-gradient(#EEEEEE, #00ADB5);
     border: none;
     margin-top: 15px;
+}
+.card-body {
+    background: linear-gradient(#EEEEEE, #00ADB5);
+    border-radius: inherit;
 }
 .card:hover {
     transform: scale(1.05);
