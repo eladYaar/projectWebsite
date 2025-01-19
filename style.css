@@ -68,6 +68,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 999; 
 
     /* background: linear-gradient(to top,#393E46,#00ADB5); */
     background-color: #00ADB5;
@@ -80,10 +81,16 @@ h3 {
 
 #socials img {
     height: 3vh;
+    z-index: 999; 
+
+}
+.container {
+    display: flex;
+    justify-content: center;
 }
 .card {
     transition: all 200ms ease;
-    width: 15vw;
+    width: 250px;
     aspect-ratio: 15/20;
     border: none;
     margin-top: 15px;
@@ -94,7 +101,7 @@ h3 {
 }
 .card:hover {
     transform: scale(1.05);
-    z-index: 999; 
+    z-index: 998; 
 }
 .card-img-top {
     height: 23vh;
